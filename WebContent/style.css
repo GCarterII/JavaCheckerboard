@@ -1,0 +1,31 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+    text-align: center;
+    position: relative;
+}
+.color1{
+	background-color: red;
+}
+.color2{
+	background-color: black;
+}
+.wrapper{
+    width: 100vw; /*sets wrapper to square equal to smallest dim (h/w)*/
+    max-width: 100vh; /*sets wrapper to square equal to smallest dim (h/w)*/
+    height: 100vh; /*sets wrapper to square equal to smallest dim (h/w)*/
+    max-height: 100vw; /*sets wrapper to square equal to smallest dim (h/w)*/
+    border: 0px solid black; /*borders for testing. set to 0 in production */
+    box-sizing: border-box; /*borders for testing. set to 0 in production */
+    font-size: 0; /*correcting for spacing between children */
+    text-align: center;
+}
+.box{
+    display: inline-block;
+    border: 0px solid black; /*borders for testing. set to 0 in production */
+    box-sizing: border-box;  /*borders for testing. set to 0 in production */
+    font-size: 12px;
+    vertical-align: top;
+}
